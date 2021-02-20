@@ -1,4 +1,4 @@
-```function run_rpa(macro_name, wait_to_close) {
+function run_rpa(macro_name, wait_to_close) {
   
 
   var html = `<script>
@@ -28,4 +28,3 @@
   SpreadsheetApp.getUi().showModalDialog(userInterface, 'One Second...');
 
 }
-```
