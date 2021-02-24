@@ -1,0 +1,42 @@
+{
+  "name": "INTEGROMAT RTL",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "INTEGROMAT RTL FIELDS AND DROPDOWNS",
+
+   "browser_action": {
+    "default_title": "INTEGROMAT RTL"
+  },
+  
+  "icons": { 
+  
+      "16": "16.png",           // optional
+      "24": "24.png",           // optional
+      "128": "128.png",           // optional
+      "48": "48.png",           // optional
+      "32": "32.png"            // optional
+		  
+	 },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+
+  "permissions": [
+	"tabs",
+    "https://www.integromat.com/*/*"
+  ],
+  
+   "content_scripts": [
+    {
+      "matches": ["*://integromat.com/scenario/*"],
+      "js": ["inject.js"]
+    }
+  ]
+  
+  
+  
+}
