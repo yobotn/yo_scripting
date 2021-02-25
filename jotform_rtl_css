@@ -1,0 +1,39 @@
+```.httal {
+text-align : right;
+}
+
+.form-all {
+direction : rtl;
+}
+
+.form-label.form-label-auto {
+text-align : right;
+direction : rtl !important;
+}
+
+.form-sub-label-container {
+ padding-left: 15px; 
+}
+
+input[type="text"],
+input[type="email"] {
+  text-align: right;
+}
+
+.form-checkbox-item:not(#foo) label:before,
+.form-radio-item:not(#foo) label:before {
+	right: 0;
+}
+
+.form-checkbox-item > label,
+.form-radio-item label {
+  padding-right: 30px !important;
+  padding-left: 0px !important;
+}
+
+[data-component="checkbox"],
+[data-component="radio"] {
+  display:flex;
+  justify-content:felx-start;
+  flex-flow: column;
+} ```
