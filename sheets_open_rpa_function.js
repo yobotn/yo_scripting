@@ -1,6 +1,5 @@
 function run_rpa(macro_name, wait_to_close) {
   
-
   var html = `<script>
 
   // open new tab
