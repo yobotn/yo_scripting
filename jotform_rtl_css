@@ -1,4 +1,5 @@
-```.httal {
+```
+.httal {
 text-align : right;
 }
 
@@ -36,4 +37,5 @@ input[type="email"] {
   display:flex;
   justify-content:felx-start;
   flex-flow: column;
-} ```
+}
+```
