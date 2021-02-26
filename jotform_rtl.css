@@ -24,6 +24,9 @@ input[type="email"] {
 .form-radio-item:not(#foo) label:before {
 	right: 0;
 }
+.form-radio-item:not(#foo) label:after {
+  right: 3px;
+}
 
 .form-checkbox-item > label,
 .form-radio-item label {
